@@ -1,0 +1,24 @@
+{
+  "name": "home-assignment-4-javascript-classes-cataususan",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10042357&assignment_repo_type=AssignmentRepo) Music Top: Create an html page which displays a list of songs organized as a music top.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagarro-Students-Program-Romania-Web/home-assignment-4-javascript-classes-cataususan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagarro-Students-Program-Romania-Web/home-assignment-4-javascript-classes-cataususan/issues"
+  },
+  "homepage": "https://github.com/Nagarro-Students-Program-Romania-Web/home-assignment-4-javascript-classes-cataususan#readme",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "songs": [
+    {
+      "id": "8ofojkp3m3jc",
+      "name": "Flowers",
+      "artist": "Miley Cirus",
+      "votes": 8
+    },
+    {
+      "id": "m0fp764j7a",
+      "name": "One Dance",
+      "artist": "Drake",
+      "votes": 9
+    },
+    {
+      "id": "1nomap5g2b55",
+      "name": "New Rules",
+      "artist": "Dua Lipa",
+      "votes": 7
+    }
+  ]
+}

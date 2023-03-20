@@ -1,0 +1,50 @@
+html,
+body {
+  font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100%;
+  background-color: blueviolet;
+}
+p {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+ol {
+  border: 3px solid black;
+}
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  height: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+button {
+  background-color: gray;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: grey;
+}
+.submit {
+  border: solid 2px black;
+  border-radius: 15px;
+  background-color: grey;
+}
+.submit:hover {
+  background-color: white;
+  color: grey;
+}
+.songEditor1 {
+  border: 2px solid black;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: none;
+}

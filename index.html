@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bigContainer">
+      <div id="topContainer">
+        <h2>TOP SONGS:</h2>
+        <ol id="topList"></ol>
+        <form action="submit" id="songEditor" class="songEditor1">
+          <h2>EDIT SONG:</h2>
+          <span>Switch name</span>
+          <input type="text" id="editSongName" value="none" />
+          <span>Switch Artist</span>
+          <input type="text" id="editSongArtist" />
+          <input class="submit" type="submit" value="Apply" />
+          <button id="cancelForm">Cancel</button>
+        </form>
+      </div>
+      <div id="songContainer">
+        <h2>VOTE HERE</h2>
+      </div>
+      <form action="submit" id="submitSong">
+        <span>Artist:</span>
+        <input id="artistInput" type="text" required />
+        <span>Song Name:</span>
+        <input id="nameInput" type="text" required />
+        <input class="submit" type="submit" />
+      </form>
+      <form action="submit" id="submitSearch">
+        <span>Search song:</span>
+        <input id="songSearch" type="text" required />
+        <input class="submit" type="submit" />
+      </form>
+      <form action="submit" id="refreshSongs">
+        <input
+          class="submit"
+          type="submit"
+          value="Refresh Song List After Search"
+        />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
